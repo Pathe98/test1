@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet Final</title>
+</head>
+<body>
+    <div class="container-xxl bg-primary">
+        <div class="container-fluid">
+            <!--navbar&header-->
+            <div class="container-xxl pb-5">
+                <nav class="navbar navbar-expand-md bg-secondary fixed-top navbar-dark navbar-scrolled">
+                    <div class="container">
+                        <a href="#" class="navbar-brand">
+                            <span class="fw-bold text-white">
+                                SB UI Kit Pro
+                            </span>
+                        </a>
+                        <!--toggle button for Mobile-Nav-->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" 
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!--Navbar links-->
+                        <div class="collapse navbar-collapse justify-content-around ms-5" id="navbarScroll">
+                            <ul class="navbar-nav ms-auto pe-5  my-2 my-lg-0 navbar-nav-scroll d-flex fw-bold" style="--bs-scroll-height: 400px;">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <!--dropdown 1-->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Landings
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="width: 600px; height: auto;">
+                                        <div class="d-lg-flex d-block">
+                                            <div class="d-lg-flex d-none flex-column justify-content-center align-items-center bg-primary p-4">
+                                                <p class="dropright-text text-white fw-light text-center">Multipurpose landing pages for a variety of projects.</p>
+                                                <div class="btn btn-light text-primary px-4 fw-bold rounded-pill border border-0">VIEW ALL</div>
+                                            </div>
+                                            <div class="pt-4 ps-4 bg-white d-lg-flex flex-wrap d-block container-fluid justify-content-around">
+                                                <div class="d-flex flex-wrap flex-column justify-content-around">
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary">APPLICATIONS</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Mobile App</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Desktop App</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary mt-4">BUSINESS</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Multipurpose</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Agency</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Press</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Directory</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Rental</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Real Estate</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Classifieds</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary mt-4">LEAD GENERATION</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Lead Capture</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Pages</a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="d-lg-flex flex-wrap flex-column d-block justify-content-center mb-auto">
+                                                    <div class="bg-white d-flex flex-column mb-3">
+                                                        <h6 class="text-primary">PERSONAL</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Resume</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Portfolio</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary">HEADER STYLES</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Basic</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Basic (Signup)</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Graphic</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Graphic (Signup)</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Inner Page</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Nav Only</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </li>
+                                </li>
+                                <!--dropdown 2-->
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="width: 500px; height: auto;">
+                                        <div class="d-lg-flex d-block">
+                                            <div class="pt-4 ps-4 bg-white d-lg-flex flex-wrap d-block container-fluid justify-content-around">
+                                                <div class="d-flex flex-wrap flex-column justify-content-around">
+                                
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary mt-4">COMPANY</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Basic Page</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">About</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Pricing</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Contact</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Terms</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary mt-4">SUPPORT</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Help Center</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Knowledgebase</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Message Center</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Support Ticket</a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="d-lg-flex flex-wrap flex-column d-block justify-content-center mb-auto">
+                                                    <div class="bg-white d-flex flex-column mb-3">
+                                                        <h6 class="text-primary">CAREERS</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Careers List</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Position Details</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column">
+                                                        <h6 class="text-primary">BLOG</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Overview</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Post</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Archive</a>
+                                                    </div>
+                                                    <div class="bg-white d-flex flex-column mt-2">
+                                                        <h6 class="text-primary">PORTFOLIO</h6>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Grid</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Large Grid</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Masonry</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Case Study</a>
+                                                        <a href="#" class="link text-black-50 fw-light text-decoration-none">Project</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </li>
+                                <!--dropdown 3-->
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="width: 320px; height: auto;">   
+                                        <div class="card btn border-0 d-flex flex-row container-fluid">
+                                            <i class="bi bi-book-fill fs-5 bg-primary my-auto p-2" style="color: rgb(54, 114, 204); border-radius: 50%;"></i>
+                                            <div class="card-body pt-4 container-fluid">  
+                                                <h6 class="text-title text-secondary text-start" style="font-size: 13px;">Basic Page</h6>
+                                                <p class="text-muted text-start" style="font-size: 15px;">Usage instructions and reference</p>
+                                            </div>
+                                        </div>
+                                        <div class="divident"><hr></div>
+                                        <div class="card btn border-0 d-flex flex-row container-fluid">
+                                            <i class="bi bi-code-slash fs-5 bg-primary my-auto p-2" style="color: rgb(54, 112, 199); border-radius: 50%;"></i>
+                                            <div class="card-body pt-4 container-fluid">  
+                                                <h6 class="text-title text-secondary text-start" style="font-size: 13px;">Create a Page</h6>
+                                                <p class="text-muted text-start" style="font-size: 15px;">Create a new component and route</p>
+                                            </div>
+                                        </div>
+                                        <div class="divident"><hr></div>
+                                        <div class="card btn border-0 d-flex flex-row container-fluid">
+                                            <i class="bi bi-file-earmark fs-5 bg-primary my-auto p-2" style="color: rgb(54, 116, 209); border-radius: 50%;"></i>
+                                            <div class="card-body pt-4 container-fluid">  
+                                                <h6 class="text-title text-secondary text-start" style="font-size: 13px;">Changelog</h6>
+                                                <p class="text-muted text-start" style="font-size: 15px;">Updates and changes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-success rounded-pill me-5 text-decoration-none text-align-center">
+                                Buy now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg>
+                            </a> 
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!--header-->
+            <div class="container mt-4">
+                <header class="page-header page-header-dark">
+                    <div class="page-header-content align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h1 class="page-header-title text-light fw-bold">Build your next project faster with SB UI Kit Pro</h1>
+                                <p class="page-header-text text-light mb-5">Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the developmet team at Start Bootstrap</p>
+                                <a href="#" class="btn btn-success btn-marketing rounded-pill text-align-center">
+                                    View Demo
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://docs.startbootstrap.com/sb-ui-kit-pro-vue" class="link mx-4" id="header-link">Documentation</a>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <img src="man.svg" class="img-fluid">
+                            </div>
+                        </div> 
+                </header>
+                
+            </div>
+        </div>
+    </div>
+    <!--courbure 1-->
+    <div class="bg-primary mb-5">
+        <svg class="svg-border-rounded text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+            <path  d="M144.54,17.34H0V0H144.54ZM0,0S32.36,11.34,72.27,11.34,144.54,0,144.54,0"></path>
+        </svg>
+    </div>
+    
+    <!--section1-->
+    <section class="page-landing">
+        <div class="page-header container-fluid">
+            <div class="page-header-content">
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="bg-info text-primary px-2 rounded-pill border border-S">12 Demos!</div>
+                        <h5 class="page-header-title text-dark my-2">Landing Pages</h5>
+                        <p class="fs-5 text-center text-secondary page-header-text">When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</p>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="container-xxl">
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 1 - Multipurpose</p>
+                                    <a href="#"><img src="landing-1.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 2 - Mobile App</p>
+                                    <a href="#"><img src="landing-2.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 3 - Desktop App</p>
+                                    <a href="#"><img src="landing-3.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 4 - Agency</p>
+                                    <a href="#"><img src="landing-4.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 5 - Lead Capture</p>
+                                    <a href="#"><img src="landing-5.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 6 - Press</p>
+                                    <a href="#"><img src="landing-6.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 7 - Directory</p>
+                                    <a href="#"><img src="landing-7.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 8 - Rental</p>
+                                    <a href=""><img src="landing-8.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 9 - Real Estate</p>
+                                    <a href="#"><img src="landing-9.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 10 - Classifieds</p>
+                                    <a href="#"><img src="landing-10.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 11 - Resume</p>
+                                    <a href="#"><img src="landing-11.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 12 - Portfolio</p>
+                                    <a href="#"><img src="landing-12.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--section2-->
+    <section id="page-inner" class="bg-light">
+        <!--courbure 2-->
+        <div class="bg-white mb-5">
+            <svg class="svg-border-rounded text-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+                <path  d="M144.54,17.34H0V0H144.54ZM0,0S32.36,11.34,72.27,11.34,144.54,0,144.54,0"></path>
+            </svg>
+        </div>
+        <!--fin courbure-->
+        <div class="page-header container-fluid">
+            <div class="page-header-content">
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="bg-info text-primary px-2 rounded-pill border border-S">19 Pages!</div>
+                        <h5 class="page-header-title text-dark my-2">Inner Pages</h5>
+                        <p class="fs-5 text-center text-black-50 page-header-text">A group of pre-build inner page demos are available to get your started when building out the rest of your project!</p>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="container-xxl d-flex align-items-center justify-content-around flex-wrap my-4">
+                        <div class="col-9 col-lg-3 mb-3">
+                            <div class="card border-0">
+                                <div class="card-text bg-light fs-4 pb-3">Company Pages</div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Basic Page
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">About Page
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Pricing Page
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Contact Page
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Terms Page
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-lg-3 mb-3">
+                            <div class="card border-0">
+                                <div class="card-text bg-light fs-4 pb-3">Support Pages</div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Help Center
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Knowledgebase
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Message Center
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Support Ticket
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-lg-3">
+                            <div class="card border-0">
+                                <div class="card-text bg-light fs-4 pb-3">Portfolio Pages</div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Grid
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Large Grid
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Masonry
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Case study
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Project
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-xxl d-flex align-items-center justify-content-around flex-wrap">
+                        <div class="col-9 col-lg-3 mb-3">
+                            <div class="card border-0">
+                                <div class="card-text bg-light fs-4 pb-3">Careers Pages</div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Careers List
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Position Details
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-lg-3 mb-3">
+                            <div class="card border-0">
+                                <div class="card-text bg-light fs-4 pb-3">Blog Pages</div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Overview
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Post
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                                <div class="card-header border text-muted btn d-flex justify-content-between shadow" id="card-link">Archive
+                                    <svg class="text-black-50" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-lg-3 d-lg-block d-none">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section3-->
+    <section class="page-example">
+        <!--courbure 3-->
+        <div class="bg-light mb-5">
+            <svg class="svg-border-rounded text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+                <path  d="M144.54,17.34H0V0H144.54ZM0,0S32.36,11.34,72.27,11.34,144.54,0,144.54,0"></path>
+            </svg>
+        </div>
+        <!--fin courbure-->
+        <div class="page-header container-fluid">
+            <div class="page-header-content">
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="bg-info text-primary px-2 rounded-pill border border-S">Customizable!</div>
+                        <h5 class="page-header-title text-dark my-2">Header Examples</h5>
+                        <p class="fs-5 text-center text-secondary page-header-text">Build your own landing page by starting with one of these customizable header examples! You can customize the colors, content, borders, and more!</p>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="container-xxl">
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 1 - Basic</p>
+                                    <a href="#"><img src="header-1.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 2 - Basic (Signup)</p>
+                                    <a href="#"><img src="header-2.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 3 - Graphic</p>
+                                    <a href="#"><img src="header-3.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap justify-content-around my-4">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 4 - Graphic (Signup)</p>
+                                    <a href="#"><img src="header-4.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 5 - Inner Page</p>
+                                    <a href="#"><img src="header-5.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title text-center fw-bold text-black-50">Demo 6 - Nav Only</p>
+                                    <a href="#"><img src="header-6.jpg" class="img-fluid d-lg-block" id="image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section4-->
+    <section class="page-documentation bg-light">
+        <!--courbure 4-->
+        <div class="bg-white mb-5">
+            <svg class="svg-border-rounded text-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+                <path  d="M144.54,17.34H0V0H144.54ZM0,0S32.36,11.34,72.27,11.34,144.54,0,144.54,0"></path>
+            </svg>
+        </div>
+        <!--fin courbure-->
+        <div class="page-header container-fluid">
+            <div class="page-header-content">
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="page-header-title display-6 text-dark my-2">Documentation</div>
+                        <p class="fs-5 text-center text-secondary page-header-text">Comprehensive documentation includes usage instructions, component reference, and utility class usage instructions</p>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="container-xxl">
+                        <div class="container-fluid d-flex flex-wrap justify-content-around">
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <div class="display-1 text-center fw-bold text-black-50">70+</div>
+                                    <p class="text-title fs-5 text-center fw-bold text-black">Custom/Extended Components</p>
+                                    <p class="text-title fs-7 text-center text-muted">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <div class="display-1 text-center fw-bold text-black-50">35+</div>
+                                    <p class="text-title fs-5 text-center fw-bold text-black">Pre-Built Page Examples</p>
+                                    <p class="text-title fs-7 text-center text-muted">Our pre-built page examples are a perfect way to get inspired for creating new pages and views.</p>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-3">
+                                <div class="d-flex flex-column">
+                                    <div class="display-1 text-center fw-bold text-black-50">100+</div>
+                                    <p class="text-title fs-5 text-center fw-bold text-black">Custom/Extended Utilites</p>
+                                    <p class="text-title fs-7 text-center text-muted">We've extended and created new utility classes to give you more control over your content with minimal custom CSS.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary border-2 border-info rounded-pill px-4 fw-bold text-decoration-none text-align-center">VIEW DOCUMENTATION</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer-page">
+        <!--courbure 5-->
+        <div class="bg-light mb-5">
+            <svg class="svg-border-rounded text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor">
+                <path  d="M144.54,17.34H0V0H144.54ZM0,0S32.36,11.34,72.27,11.34,144.54,0,144.54,0"></path>
+            </svg>
+        </div>
+        <!--fin courbure-->
+        <div class="page-header container-fluid">
+            <div class="page-header-content">
+                    <div class="container-xxl">
+                        <div class="container d-flex flex-wrap justify-content-between me-4">
+                            <div class="col-10 col-lg-2 me-5">
+                                <div class="d-flex flex-column">
+                                    <div class="text-title fs-4 fw-bold text-black-50">SB UI Kit Pro</div>
+                                    <p class="fs-5 text-muted">Build better websites</p>
+                                    <div class="text-secondary">
+                                        <a href="" class="link text-muted fs-5"><i class="bi bi-instagram"></i></a>
+                                        <a href="" class="link text-muted mx-2 fs-5"><i class="bi bi-facebook"></i></a>
+                                        <a href="" class="link text-muted fs-5"><i class="bi bi-github"></i></a>
+                                        <a href="" class="link text-muted mx-2 fs-5"><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-2">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title fs-6 fw-bold text-muted">PRODUCT</p>
+                                    <a href="#" class="link text-muted" id="footer-link">Landing</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Pages</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Section</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Documentation</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Changelog</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-2">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title fs-6 fw-bold text-muted">TECHNICAL</p>
+                                    <a href="#" class="link text-muted" id="footer-link">Documentation</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Changelog</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Theme Customizer</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">UI Kit</a>   
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-2">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title fs-6 fw-bold text-muted">INCLUDES</p>
+                                    <a href="#" class="link text-muted" id="footer-link">Utilities</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Components</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Layouts</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Code Samples</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Products</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Affiliates</a>
+                                    <a href="#" class="link text-muted" id="footer-link">Updates</a>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-2">
+                                <div class="d-flex flex-column">
+                                    <p class="text-title fs-6 fw-bold text-muted">LEGAL</p>
+                                    <a href="#" class="link text-muted" id="footer-link">Privacy Policy</a>
+                                    <a href="#" class="link my-2 text-muted" id="footer-link">Terms and <br>Conditions</a>
+                                    <a href="#" class="link text-muted" id="footer-link">License</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="container my-5 border border-bottom-secondary"></div>
+                    <div class="container d-flex justify-content-between">
+                        <p class="text-secondary">Copyright © Your Website 2020</p>
+                        <div><a href="" class="link text-secondary" id="footer-link">Privacy Policy ·</a> <a href="" class="link text-secondary" id="footer-link">Terms & Conditions</a></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
